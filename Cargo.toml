@@ -1,0 +1,11 @@
+[package]
+name = "pwa_cli"
+description = "rust cli program to generate progressive web apps assets"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+image = "0.24"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
